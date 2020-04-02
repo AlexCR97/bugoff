@@ -1,1 +1,316 @@
-/* You can add global styles to this file, and also import other style files */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+
+/*-----------------------
+SOBRE ESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+--------------------------*/
+
+.bg-primary {
+    background-color: #5f0867 !important;
+}
+
+.text-primary {
+    color: #5f0867 !important;
+}
+
+.btn-primary {
+    background-color: #5f0867 !important;
+    border-color: #080108 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #330438 !important;
+}
+
+.btn-primary:active {
+    background-color: #080108 !important;
+    border-color: black !important;
+}
+
+.btn-primary:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(95, 8, 103, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(95, 8, 103, 0.5) !important;
+}
+
+
+/*-----------------------
+ESTILOS DEL DISEÑO
+--------------------------*/
+
+html {
+    font-size: 13px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+    background-color: #eaeaea;
+    overflow-x: hidden;
+}
+
+textarea {
+    resize: none;
+}
+
+#fondorosa {
+    background: #e95dee;
+}
+
+.projects {
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: white;
+    width: 100px;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0 10px #0c0c0c3b;
+    box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+.titles {
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+#dashboard {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3886b6), to(#5f0867));
+    background-image: linear-gradient(#3886b6, #5f0867);
+}
+
+.opcion-selecccionada {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3f2783), to(#5f0867));
+    background-image: linear-gradient(#3f2783, #5f0867);
+    color: white;
+    margin-top: .5rem;
+}
+
+.opcion-deselecccionada {
+    background: #eaeaea;
+    color: black;
+    margin-top: .5rem;
+}
+
+#tareas {
+    color: #5f0867;
+}
+
+.botones {
+    border-radius: 1.3em;
+    transition: background-color .5s ease;
+}
+
+.botones {
+    color: #888888;
+}
+
+.botones:hover,
+.botones:focus {
+    color: #5f0867;
+    text-decoration: none;
+    background-color: #c8c8c8 !important;
+}
+
+.botones:active {
+    text-decoration: none;
+    background-color: #cccccc !important;
+    border-color: #b3b3b3 !important;
+}
+
+.configurations {
+    font-size: 1.4em;
+    color: white;
+}
+
+#publicar {
+    float: right;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    background: white;
+    margin-left: -20rem;
+    -webkit-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+}
+
+.line {
+    height: 2px;
+}
+
+#profile {
+    cursor: pointer;
+    padding: 20px 20px;
+    background: #eaeaea;
+    transition: background .5s ease;
+    margin: 0 !important;
+}
+
+#nameprofile {
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+}
+
+#profile:hover {
+    background: #dbdbdb;
+}
+
+.input {
+    padding: 18px;
+    border-radius: .8em;
+}
+
+#sub {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#bottombuttons {
+    float: right;
+}
+
+#clean {
+    color: #3886b6;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.submit {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 1em;
+    transition: all 1.5s ease;
+    border: none;
+}
+
+.submit:hover {
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+}
+
+.iconbutton {
+    position: absolute;
+    top: 19px;
+    left: 20px;
+    font-size: 16px;
+}
+
+.textbutton {
+    position: absolute;
+    top: 17px;
+    left: 55px;
+    font-size: 14px;
+}
+
+.buttonsidebar {
+    cursor: pointer;
+    position: relative;
+    border: none;
+    border-radius: 1.2rem !important;
+    transition: box-shadow .5s ease;
+    height: 55px;
+}
+
+.buttonsidebar:hover {
+    -webkit-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 0px 16px -1px rgba(0, 0, 0, 0.23);
+}
+
+.card-header {
+    padding: 0 !important;
+    height: 50px;
+}
+
+.titlecolapse {
+    position: relative;
+    cursor: pointer;
+    height: 50px;
+}
+
+.iconcolapse {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.iconright {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.textcolapse {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+
+.list-group button:not(:first-child) {
+    margin-top: 20px;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 20rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (max-width: 1408px) {
+    .card-title {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    #progreso {
+        color: #74d1fc;
+    }
+    #testing {
+        color: #fcb879;
+    }
+    #actualizado {
+        color: #e95dee;
+    }
+    #abierto {
+        color: #6fff4b;
+    }
+    #cerrado {
+        color: red;
+    }
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -20rem;
+    }
+}

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bugoff';
+  public status:string;
+  constructor(){
+    this.status = 'error';
+  }
+
+
+
+  
 }
