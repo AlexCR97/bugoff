@@ -1,0 +1,90 @@
+.cuadroprincipal {
+  width: 700px;
+}
+
+.cuadroizq {
+  border-bottom-left-radius: 4rem;
+  border-top-left-radius: 4rem;
+}
+
+.cuadroder {
+  border-bottom-right-radius: 4rem;
+  border-top-right-radius: 4rem;
+}
+
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+
+  //rgba(0, 87, 136) 40px, 
+  //rgba(0, 87, 136) 40px, 
+  background: rgb(0,188,252);
+background: linear-gradient(30deg, rgba(0,188,252,1) 0%, rgba(0,188,252,1) 30%, rgba(0,87,136,1) 30%, rgba(0,87,136,1) 70%, rgba(0,188,252,1) 70%, rgba(0,188,252,1) 100%);
+}
+
+.texto1 {
+  margin-top: 7rem;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.texto2 {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.texto3 {
+  text-decoration: none;
+  color: rgb(161, 161, 161);
+  text-decoration: none;
+}
+
+.texto3:hover {
+  color: rgb(46, 46, 46);
+}
+
+.btn-login {
+  background: rgb(0, 188, 252);
+  color: white;
+  width: 100%;
+  border: 0;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 15px;
+}
+
+.input100 {
+  border: 0;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.registrate {
+  margin-top: 2rem;
+  color: rgb(150, 150, 150);
+  text-align: center;
+  margin-bottom: 7rem;
+
+}
+
+.centrado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
