@@ -11,8 +11,4 @@ export class AppComponent {
   constructor(){
     this.status = 'error';
   }
-
-
-
-  
 }
